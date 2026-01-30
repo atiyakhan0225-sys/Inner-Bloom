@@ -1,0 +1,90 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #06dfbec5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #b7e4c7;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #d8f3dc;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #013d22;
+    font-weight: 500;
+}
+
+/* Box Model Sections */
+.box {
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.light {
+    background-color: #eaf4f4;
+}
+
+/* Services List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+}
+
+/* Form */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #01311b;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #b7e4c7;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
